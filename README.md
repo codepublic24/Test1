@@ -5,26 +5,26 @@
 - foo  
   foofoofoofoofoo
   - bar
-  -     barbarbar  
+  - barbarbar
         barbarbarbar
 
 - foo  
   foofoofoofoofoo
   - bar
-    barbarbar  
+    barbarbar
     barbarbarbar
 
 - foo  
   foofoofoofoofoo
   - bar
-  -     barbarbar  
+  - barbarbar
         barbarbarbar
 
 - foo  
   foofoofoofoofoo
   - bar
     ```bash
-    mkdir ~/.ssh  
+    mkdir ~/.ssh
     cd ~/.ssh
     ssh-keygen -t rsa -C 'メールアドレス'
     chmod 600 id_rsa
@@ -33,12 +33,13 @@
 
 - foo  
   foofoofoofoofoo
-  - bar
+  - bar  
   ```bash
-    mkdir ~/.ssh  
+    mkdir ~/.ssh
     cd ~/.ssh
     ssh-keygen -t rsa -C 'メールアドレス'
     chmod 600 id_rsa
     clip < ~/.ssh/id_rsa.pub
   ```
 
+![image](./img/imgset001/img01.jpg)
